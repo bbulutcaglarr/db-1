@@ -1,8 +1,9 @@
-# Bandle City Municipality and Urban Planning Database Schema
+# Caglar Donation Platform Database Schema
 
 ## Project Description
 
-This project aims to develop a Municipality and Urban Planning system for Bandle City. It includes various features such as municipal management, citizen services, feedback and suggestions, and complaint management. The database schema is designed to support these features, utilizing MySQL for data storage and efficient management.
+This project aims to develop a Donation Platform System for fundraising campaigns. It includes various features such as campaign management, donation tracking, user feedback, and reporting tools. The database schema is designed to support these features, utilizing MySQL for efficient data storage and management.
+
 
 ## Technologies
 
