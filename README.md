@@ -88,8 +88,6 @@ php artisan migrate
 php artisan serve
 ```
 # Developer Notes
-```bash
 - The database uses UTF-8 support (utf8mb4_unicode_ci collation).
 - Foreign key constraints are used to enforce referential integrity and cascading deletions.
 - Optimized for PHPStorm IDE.
-```
