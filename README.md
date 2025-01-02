@@ -54,7 +54,6 @@ This project aims to develop a Donation Platform System for fundraising campaign
 ## 3. Supporting Tables
 
 - **tags**: Stores tags for categorizing and labeling campaigns.
-- **sikayetler**: Handles citizen complaints related to the municipality and their status.
 
 ------------------------------------------------------------
 
@@ -72,6 +71,25 @@ This project aims to develop a Donation Platform System for fundraising campaign
 # Installation Instructions
 
 ## 1. Install Laravel project:
-
 ```bash
 composer install
+```
+## 2. Create the environment file and set up configurations:
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+## 3. Create the database and update configurations:
+```bash
+php artisan migrate
+```
+## 4. Start the server:
+```bash
+php artisan serve
+```
+# Developer Notes
+```bash
+- The database uses UTF-8 support (utf8mb4_unicode_ci collation).
+- Foreign key constraints are used to enforce referential integrity and cascading deletions.
+- Optimized for PHPStorm IDE.
+```
